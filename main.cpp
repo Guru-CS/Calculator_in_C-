@@ -1,4 +1,5 @@
 #include <iostream>
+//Part of namespace std, allows for mathematical functions to be called.
 #include <cmath>
 using namespace std;
 /*
@@ -9,10 +10,12 @@ using namespace std;
 */
 
 int main(){
+    //inputs are defined here
     float inp1;
     float inp2;
 cout << "im coding"<< endl;
 cout << "Input1: ";
+//gathered here
 cin >> inp1 ;
 cout << endl << "Input2: ";
 cin >> inp2;
@@ -25,8 +28,10 @@ double inp1d = double(inp1);
 double inp2d = double(inp1);
 cout << endl << "Result of Modulus: " << fmod(inp1d,inp2d);
 cout << endl << "Result of Increment Inp1: " << ++inp1;
+//Since it changes the value itself we have to inverse the change
 --inp1;
 cout << endl << "Result of Decrement Inp2: " << --inp2;
+//inversed here to
 ++inp2;
 cout << endl << "Result of Rounding Inp1: " << round(inp1);
 cout << endl << "Result of Rounding Inp2: " << round(inp2);
